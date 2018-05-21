@@ -30,7 +30,7 @@ namespace Application.Test
         [TestMethod]
         public void Unsing_predicate_to_check_if_the_sum_of_two_numbers_is_odd()
         {
-            // Assemble - pass a arry or object if you need more than one input 
+            // Assemble - pass a array or object if you need more than one input 
             int[] numbers = { 3, 4 };
 
             Predicate<int[]> predicate = (input) => 
